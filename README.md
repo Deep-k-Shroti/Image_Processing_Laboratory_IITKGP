@@ -22,7 +22,7 @@ Each directory includes the experiment problem statement(.pdf),README(.txt), Tes
 		* Input: Image pixel array. <br />
 		* Output: Grayscale-converted and diagonally flipped (transposed) pixel array. <br />
 		* Input: Filename of output (grayscale) image, BMP header structure, Image pixel array.
-		3. WriteBMP: <br />
+	3. WriteBMP: <br />
 		* Output: BMP file written on disk. <br />
 	Use the above functions to read a 256 × 256 24-bit RGB colored Lena image, and write it as an 8-bit	grayscale onto a different file on the disk. <br />
 
