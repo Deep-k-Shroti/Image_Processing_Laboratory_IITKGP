@@ -1,7 +1,7 @@
 # Image_Processing_Laboratory_IITKGP
 ##Image_Processing_Laboratory_IITKGP(DIP) Laboratory Spring 2016.
 
-This repository contains all DIP Lab Assignments. The Experiment are written in C without using OpenCV library except for reading of image.
+This repository contains all DIP Lab Assignments. The Experiment are written in C without using OpenCV library except for reading of image and GUI (trackbar/slider)
 Code written using Visual Studio 2010.
 
 ##Directories included <br />
@@ -24,13 +24,13 @@ Each directory includes the experiment problem statement(.pdf),README(.txt), Tes
 		* Input: Filename of output (grayscale) image, BMP header structure, Image pixel array.
 	3. WriteBMP: <br />
 		* Output: BMP file written on disk. <br />
-	Use the above functions to read a 256 × 256 24-bit RGB colored Lena image, and write it as an 8-bit	grayscale onto a different file on the disk. <br />
+Use the above functions to read a 256 × 256 24-bit RGB colored Lena image, and write it as an 8-bit	grayscale onto a different file on the disk. <br />
 
 2. Histogram Equalization and Matching <br />
 	Write C++/Image-J modular functions to <br />
 	1. Perform histogram equalization on the 512 × 512 grayscale lena_gray_dark.jpg image. Perform the same on other low-contrast, dark, normal (gray/colored) images. <br />
 	2. Perform histogram matching of the same images with respect to a standard image (e.g. lena.jpg). <br />
-	Display the histograms of the original image and the enhanced images and document the observations. <br />
+Display the histograms of the original image and the enhanced images and document the observations. <br />
 
 3. Spatial Filtering <br />
 	Write C/C++ modular functions/subroutines to design spatial filters - mean, median, gradient, Laplacian, Sobel kernels (horizontal, vertical, diagonal) on a stack of grayscale images (say, 15 images per stack) <br />
@@ -52,8 +52,7 @@ Each directory includes the experiment problem statement(.pdf),README(.txt), Tes
 		* Gaussian_HPF <br />
 		* Butterworth_LPF <br />
 		* Butterworth_HPF <br />
-	Display the (shifted) magnitude spectrums of the input, the filter and the filtered output. You may
-	make use of the tracker/slider function to choose images, filter types and cut-off frequencies. <br />
+Display the (shifted) magnitude spectrums of the input, the filter and the filtered output. You may make use of the tracker/slider function to choose images, filter types and cut-off frequencies. <br />
 
 5. Morphological Operations <br />
 	Write C++/Image-J modular functions to perform the following operations on the given test image, ricegrains_mono.bmp. All functions must support binary images. <br />
@@ -66,9 +65,9 @@ Each directory includes the experiment problem statement(.pdf),README(.txt), Tes
 		* Output: Opened/closed image <br />
 
 ##References
-- (BMP file format wikipedia)[http://en.wikipedia.org/wiki/BMP_file_format] <br />
-- (Histogram Equalization wikipedia)[http://en.wikipedia.org/wiki/Histogram_equalization] <br />
-- (Morphological Operations: Prof. P. K. Biswas, Lecture 33 - 36, Video Lecture Series (NPTEL) on Digital Image Processing)[https://www.youtube.com/watch?v=CVV0TvNK6pk&list=PL1F076D1A98071E24]<br />
+- [BMP file format wikipedia](http://en.wikipedia.org/wiki/BMP_file_format) <br />
+- [Histogram Equalization wikipedia](http://en.wikipedia.org/wiki/Histogram_equalization) <br />
+- Morphological Operations: Prof. P. K. Biswas, Lecture 33 - 36, [Video Lecture Series (NPTEL) on Digital Image Processing](https://www.youtube.com/watch?v=CVV0TvNK6pk&list=PL1F076D1A98071E24)<br />
 - R. C. Gonzalez and R. Woods, Digital Image Processing, Reading, MA: Addison-Wesley, 1992.
 
 ##Setup
