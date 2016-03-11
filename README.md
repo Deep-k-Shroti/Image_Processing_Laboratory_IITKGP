@@ -1,7 +1,7 @@
 # Image_Processing_Laboratory_IITKGP
 ##Image_Processing_Laboratory_IITKGP(DIP) Laboratory Spring 2016.
 
-This repository contains all DIP Lab Assignments. The Experiment are written in C without using OpenCV library except for reading of image and GUI (trackbar/slider)
+This repository contains all DIP Lab Assignments. The Experiment are written in C++ without using OpenCV library except for reading of image and GUI (trackbar/slider)
 Code written using Visual Studio 2010.
 
 ##Directories included <br />
